@@ -1,0 +1,139 @@
+@keyframes FadeInUp {
+    0%{
+        translate: 0px 200px;
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100%{
+        translate: 0px 0px;
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}
+
+
+.fadeInUp{
+    animation-name: FadeInUp;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes FadeInRight {
+    0%{
+        translate: -200px 0px;
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100%{
+        translate: 0px 0px;
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}
+
+
+.fadeInRight{
+    animation-name: FadeInRight;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes FadeInLeft {
+    0%{
+        translate: 200px 0px;
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100%{
+        translate: 0px 0px;
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}
+
+
+.fadeInLeft{
+    animation-name: FadeInLeft;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes FadeInDown {
+    0%{
+        translate: 0px -200px;
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100%{
+        translate: 0px 0px;
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}
+
+
+.fadeInDown{
+    animation-name: FadeInDown;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes IsShow {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.show{
+    animation-name: IsShow;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes IsHide {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.hide{
+    animation-name: IsHide;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+
+._2_Active{
+    translate: -30px;
+    color: rgb(225, 247, 255);
+    
+    font-size: 30px;
+    font-family: Song;
+    position: relative;
+    text-align: right;
+    right: 10%;
+    top: -20%;
+    letter-spacing: 8px;
+}
+
+
+
