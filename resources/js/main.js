@@ -356,7 +356,7 @@ var usernameInput=document.querySelector(".userNameInput");
 var commentContent=document.querySelector(".commentContent");
 var delbtn=document.querySelector("#delBtn");
 var errMsgPresenter=document.querySelector(".errorMsg");
-var  connection=new  WebSocket("ws://hopeeia.azurewebsites.net/ws");
+var  connection=new  WebSocket("wss://hopeeia.azurewebsites.net/ws");
 var commentRootNode=document.querySelector(".basicCommentShowingArea");
 var commentUnit=document.querySelector(".CommentDisplayUnit");
 
